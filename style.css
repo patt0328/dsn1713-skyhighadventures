@@ -4,31 +4,24 @@ body {
     margin: 0;
     padding: 0;}
 
-.hero {
-    background: url('../images/skydiving-sunset.png') center center/cover no-repeat;
+#hero {
+    background: url('../images/pexels-eyes79-8427207.jpg') ;
     height: 100vh;
-    position: relative;
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    
   }
-  
-  
-  .hero::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.4);
-  }
-  
-  .hero .container {
-    position: relative;
-    z-index: 1;
-  }
-
-
-  
   
 
  
-.hero h1 {
+#hero h1 {
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    padding-top: 150px;
+  }
+
+  #hero p {
     text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
   }
   
